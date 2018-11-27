@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "WildWolf\\ApplicationPasswords\\": "inc/"
+        }
+    },
+    "require": {
+        "wildwolf/wp-class-autoloader": "^1.1"
+    }
+}
