@@ -1,19 +1,18 @@
 span.delete button {
-    color: #A00;
+	color: #A00;
 
-    &:hover {
-        color: #DC3232;
-    }
+	&:hover {
+		color: #DC3232;
+	}
 }
 
 .new-application-password {
+	.notification-dialog-background {
+		opacity: 1;
+		background: rgba(0, 0, 0, 0.7);
+	}
 
-    .notification-dialog-background {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.7);
-    }
-
-    .notification-dialog {
-        padding: 20px;
-    }
+	.notification-dialog {
+		padding: 20px;
+	}
 }
