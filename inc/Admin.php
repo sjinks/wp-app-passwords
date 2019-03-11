@@ -40,7 +40,7 @@ final class Admin
 		if ('user-edit.php' === $hook || 'profile.php' === $hook) {
 			\wp_enqueue_style('wwapppass-profile-css', \plugins_url('/assets/profile.min.css', \dirname(__DIR__) . '/plugin.php'), [], '1');
 			\wp_enqueue_script('doT', 'https://cdnjs.cloudflare.com/ajax/libs/dot/1.1.2/doT.min.js', [], '1.1.2', true);
-			\wp_enqueue_script('wwapppass-profile-js', \plugins_url('/assets/profile.min.js', \dirname(__DIR__) . '/plugin.php'), ['jquery', 'doT'], \filemtime(__DIR__ . '/../assets/profile.min..js'), true);
+			\wp_enqueue_script('wwapppass-profile-js', \plugins_url('/assets/profile.min.js', \dirname(__DIR__) . '/plugin.php'), ['jquery', 'doT'], \filemtime(__DIR__ . '/../assets/profile.min.js'), true);
 			\wp_localize_script('wwapppass-profile-js', 'wwAppPass', [
 				'rest_base'      => \rest_url() . Plugin::REST_NS . '/application-passwords/',
 				'nonce'          => \wp_create_nonce('wp_rest'),
