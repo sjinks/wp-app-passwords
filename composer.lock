@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6403054543b06fd74aa6f32b1553d9a9",
+    "packages": [
+        {
+            "name": "wildwolf/wp-class-autoloader",
+            "version": "5.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sjinks/wp-class-autoloader.git",
+                "reference": "d94779e1f9e195898fe3821f50cf5884d53cc496"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sjinks/wp-class-autoloader/zipball/d94779e1f9e195898fe3821f50cf5884d53cc496",
+                "reference": "d94779e1f9e195898fe3821f50cf5884d53cc496",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "wp-class-autoloader.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Volodymyr Kolesnykov",
+                    "email": "volodymyr@wildwolf.name",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Helper to load WordPress core classes automatically",
+            "homepage": "https://github.com/sjinks/wp-class-autoloader",
+            "keywords": [
+                "autoload",
+                "autoloader",
+                "class",
+                "helper",
+                "wordpress"
+            ],
+            "time": "2020-08-17T12:22:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

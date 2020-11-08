@@ -22,9 +22,7 @@ const config = {
             outputStyle:     'expanded',
             precision:       5
         },
-        autoprefixer: {
-            browsers : '> 5%'
-        },
+        autoprefixer: {},
         cssnano: {}
     },
     js: {
