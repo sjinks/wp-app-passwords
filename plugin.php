@@ -3,7 +3,7 @@
  Plugin Name: WW Application Passwords
  Description: Application Passwords
  Author: Volodymyr Kolesnykov
- Version: 1.0
+ Version: 1.0.1
  Author URI: https://wildwolf.name/
 */
 defined('ABSPATH') || die();
