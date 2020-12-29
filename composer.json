@@ -1,4 +1,5 @@
 {
+    "abandoned": true,
     "autoload": {
         "psr-4": {
             "WildWolf\\ApplicationPasswords\\": "inc/"
